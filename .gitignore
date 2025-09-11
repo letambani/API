@@ -1,0 +1,22 @@
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+.yarn/
+.pnp.*
+cat > .gitignore << 'EOF'
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+.yarn/
+.pnp.*
+# Build / dist
+dist/
+build/
+coverage/
+# OS / Editor
+.DS_Store
+*.swp
+.vscode/
