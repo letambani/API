@@ -23,7 +23,7 @@ app.get("/clients/:id", function(req, res) {
 app.post("/clients", function(req, res) {
   const { name, email } = req.body;
 
-  // salvar
+  // salvar isso
 
   res.json({ name, email });
 });
